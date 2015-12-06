@@ -1,5 +1,6 @@
 """Apparently you can subclass None's type, wat."""
 # This is apparently fixed in 3.6
+# And apparently 2.7.11
 
 
 class X(object):
