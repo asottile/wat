@@ -1,9 +1,11 @@
+from __future__ import annotations
+
 import traceback
 
 
 def eval_and_print(s):
     try:
-        print('>>> {}'.format(s))
+        print(f'>>> {s}')
         print(eval(s))
     except Exception:
         traceback.print_exc()

@@ -1,5 +1,6 @@
+from __future__ import annotations
 print('hello''')
-print("ohai""")
+print('ohai''')
 # SyntaxError
 # print('''hello')
 # print("""ohai")
