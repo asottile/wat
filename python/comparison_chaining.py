@@ -7,13 +7,13 @@ This happens in all versions of python I have access to:
 - python3.4
 - python3.5
 """
-from __future__ import print_function
+from __future__ import annotations
 
 import ast  # noqa (used by eval)
 
 
 def print_and_run(s):
-    print('>>> {0}'.format(s))
+    print(f'>>> {s}')
     print(eval(s))
 
 

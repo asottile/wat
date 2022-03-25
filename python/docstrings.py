@@ -1,4 +1,5 @@
 """foo"""
+from __future__ import annotations
 
 
 def f():
@@ -11,7 +12,7 @@ def g():
     print(__doc__)
 
 
-class C(object):
+class C:
     """baz"""
 
     x = __doc__

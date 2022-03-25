@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import collections
 
 
@@ -6,7 +8,7 @@ B = collections.namedtuple('B', ('d', 'e'))
 
 
 def print_and_run(s):
-    print('>>> {}'.format(s))
+    print(f'>>> {s}')
     print(eval(s))
 
 
