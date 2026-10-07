@@ -1,4 +1,3 @@
-from __future__ import annotations
 x = (1, 2, 3)
 
 for (replace_key, replace_value) in ((2, 4), (3, 5)):
