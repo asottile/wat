@@ -7,8 +7,6 @@ This happens in all versions of python I have access to:
 - python3.4
 - python3.5
 """
-from __future__ import annotations
-
 import ast  # noqa (used by eval)
 
 

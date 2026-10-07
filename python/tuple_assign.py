@@ -1,6 +1,4 @@
 """This one has to do with how the augmented assigment operator is done."""
-from __future__ import annotations
-
 import contextlib
 import traceback
 

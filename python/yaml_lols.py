@@ -1,8 +1,6 @@
 """This one requires pyyaml.  pyyaml is pretty not-safe by default.
 Takeaway: use yaml.safe_load
 """
-from __future__ import annotations
-
 import yaml
 
 
